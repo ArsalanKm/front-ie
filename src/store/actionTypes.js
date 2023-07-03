@@ -1,0 +1,2 @@
+export const ADD_USER_NAME = 'ADD_USER_NAME';
+export const SET_SIDEBAR_IS_OPEN = 'SET_SIDEBAR_IS_OPEN';

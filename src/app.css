@@ -1,0 +1,61 @@
+.my-app {
+  margin: 40px auto;
+  width: 100%;
+  margin-right: 240px;
+}
+.app {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* .theme--black {
+}
+div,
+body,
+header {
+  background-color: #181a20 !important;
+}
+p,
+span,
+h1,
+h2,
+button {
+  color: white !important;
+} */
+
+/* .MuiPaper-root {
+  border: 1px solid white !important  ;
+} */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar--desktop {
+}
+
+@media only screen and (max-width: 800px) {
+  .my-app {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .responsive-container {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .root {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
